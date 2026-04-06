@@ -1,0 +1,14 @@
+{
+  "name": "duckndive-voice-bot",
+  "version": "1.0.0",
+  "description": "Voice reservation and menu bot for Duck N Dive restaurant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.20.0",
+    "@anthropic-ai/sdk": "^0.20.0"
+  }
+}
